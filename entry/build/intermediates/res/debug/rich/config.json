@@ -1,0 +1,56 @@
+{
+    "app": {
+        "apiVersion": {
+            "compatible": 4,
+            "releaseType": "Release",
+            "target": 5
+        },
+        "bundleName": "ohos.samples.orm",
+        "version": {
+            "code": 1000000,
+            "name": "1.0"
+        }
+    },
+    "deviceConfig": {
+        
+    },
+    "module": {
+        "abilities": [
+            {
+                "iconId": 16777241,
+                "skills": [
+                    {
+                        "entities": [
+                            "entity.system.home"
+                        ],
+                        "actions": [
+                            "action.system.home"
+                        ]
+                    }
+                ],
+                "orientation": "unspecified",
+                "descriptionId": 16777221,
+                "labelId": 16777216,
+                "icon": "$media:icon",
+                "name": "ohos.samples.orm.MainAbility",
+                "description": "$string:mainability_description",
+                "label": "$string:app_name",
+                "type": "page",
+                "homeAbility": true,
+                "launchType": "standard"
+            }
+        ],
+        "deviceType": [
+            "phone"
+        ],
+        "mainAbility": "ohos.samples.orm.MainAbility",
+        "distro": {
+            "moduleType": "entry",
+            "installationFree": false,
+            "deliveryWithInstall": true,
+            "moduleName": "entry"
+        },
+        "package": "ohos.samples.orm",
+        "name": ".MyApplication"
+    }
+}
